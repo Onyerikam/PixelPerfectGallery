@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Perfect Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pixel Perfect Gallery</h1>
+    <p>Welcome to our gallery of beautiful images!</p>
+    <div class="search-container">
+        <form>
+            <input type="text" id="search" placeholder="Search...">
+            <button type="submit"><i class="fas fa-search"></i>Search</button>
+        </form>
+    </div>
+    <div class="filter-container">
+        <label for="filter">Filter by category:</label>
+        <select name="filter" id="filter">
+            <option value="all">All</option>
+            <option value="nature">Nature</option>
+            <option value="food">Food</option>
+            <option value="architecture">Architecture</option>
+            <option value="travel">Travel</option>
+        </select>
+    </div>
+    <div class="gallery">
+        <img src="https://source.unsplash.com/250x250/?nature,water" alt="Nature and Water" data-category="nature">
+        <img src="https://source.unsplash.com/250x250/?nature,forest" alt="Nature and Forest" data-category="nature">
+        <img src="https://source.unsplash.com/250x250/?nature,landscape" alt="Nature and Landscape" data-category="nature">
+        <img src="https://source.unsplash.com/250x250/?food,pizza" alt="Food and Pizza" data-category="food">
+        <img src="https://source.unsplash.com/250x250/?food,burger" alt="Food and Burger" data-category="food">
+        <img src="https://source.unsplash.com/250x250/?food,sushi" alt="Food and Sushi" data-category="food">
+        <img src="https://source.unsplash.com/250x250/?architecture,building" alt="Architecture and Building" data-category="architecture">
+        <img src="https://source.unsplash.com/250x250/?architecture,city" alt="Architecture and City" data-category="architecture">
+        <img src="https://source.unsplash.com/250x250/?architecture,interior" alt="Architecture and Interior" data-category="architecture">
+        <img src="https://source.unsplash.com/250x250/?travel,beach" alt="Travel and Beach" data-category="travel">
+        <img src="https://source.unsplash.com/250x250/?travel,mountain" alt="Travel and Mountain" data-category="travel">
+        <img src="https://source.unsplash.com/250x250/?travel,city" alt="Travel and City" data-category="travel">
+    </div>
+    <script src="https://kit.fontawesome.com/65ba9c8c87.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
