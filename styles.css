@@ -1,0 +1,126 @@
+/* Resets */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f8f8f8;
+    }
+    
+    /* Layout */
+    h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+    }
+    
+    p {
+    text-align: center;
+    margin-bottom: 30px;
+    }
+    
+    .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    }
+    
+    .search-container input[type=text] {
+    width: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    outline: none;
+    }
+    
+    .search-container button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ff7b00;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    outline: none;
+    }
+    
+    .filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    }
+    
+    .filter-container label {
+    margin-right: 10px;
+    font-size: 1rem;
+    }
+    
+    .filter-container select {
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #fff;
+    font-size: 1rem;
+    margin-left: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    outline: none;
+    }
+    
+    .filter-container select:focus {
+    border: 2px solid #ff7b00;
+    }
+    
+    .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    }
+    
+    .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    
+    /* Hover effect */
+    
+    .gallery img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    /* JavaScript */
+    
+    .selected-image {
+    border: 2px solid #ff7b00;
+    }
+    
+    /* Media queries */
+    
+    @media only screen and (max-width: 768px) {
+    .search-container {
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .search-container input[type=text] {
+    width: 100%;
+    margin-bottom: 10px;
+    }
+    
+    .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    }
+    }
