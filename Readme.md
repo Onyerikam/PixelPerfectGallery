@@ -6,7 +6,7 @@ Welcome to the Pixel Perfect Gallery, a simple and stylish image gallery built w
 
 ## Demo
 
-Check out the live demo of the gallery at [https://codecrazea.github.io/pixel-perfect-gallery/](https://codecrazea.github.io/pixel-perfect-gallery/).
+Check out the live demo of the gallery at [https://onyerikam.github.io/PixelPerfectGallery/](https://onyerikam.github.io/PixelPerfectGallery/).
 
 ## Features
 
@@ -17,7 +17,7 @@ Check out the live demo of the gallery at [https://codecrazea.github.io/pixel-pe
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/codecrazea/pixel-perfect-gallery.git`
+1. Clone the repository: `git clone https://github.com/Onyerikam/PixelPerfectGallery.git`
 2. Open the index.html file in your web browser
 
 ## Usage
